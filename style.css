@@ -1,0 +1,117 @@
+@charset "UUTF-8";
+
+:root {
+    --cor0: #611D27;
+    --cor1: #8A2938;
+    --cor2: #D64057;
+    --cor3: #D65A6D;
+    --cor4: #A48388;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: block;
+    margin: auto;
+    background-color: #D65A6D;
+    height: auto;
+}
+
+#caixalogo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    padding: 10px;
+}
+
+#imglogo{ width: 30%; }
+
+/* MENU PARA SMARTPHONES____*/
+
+nav{
+    display: block;
+    text-align: center;
+}
+
+.material-symbols-outlined{
+    display: block;
+    margin: auto;
+    padding: 1px;
+    cursor: pointer;
+    transform: scale(2.3); 
+    border-radius: 5px;
+    color: white;
+}
+
+.material-symbols-outlined{
+    background-color: #8A2938;
+    margin-top: 2.5%;
+    margin-bottom: 8%;
+}
+
+#menupaleta{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #611D27;
+    color: white;
+    
+}
+
+/* MAIN PAGINA PRINCIPAL_____*/
+
+main{
+    height: 900px;
+    width: auto;
+    background-image: url('img/bannerprincipal.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 70%;
+
+}
+
+/* RODAPÉ_______*/
+
+footer{
+    height: auto;
+    background-color: #D65A6D;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+footer > p{
+    padding: 10px;
+}
+
+footer > a > img {
+    width: 10%;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+footer > a > img:hover{
+    transform: scale(1.2);
+}
+
+#instalogo{
+    width: 11%;
+    padding: 8px;
+    
+}
+
+#facelogo{
+    margin-right: 0;
+}
+
+#pdumar{
+    color: #d7d7d7;
+}

@@ -12,7 +12,41 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* CARROSSEL DE IMAGENS________*/
+
+#caixacarrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.carrossel{
+    overflow: hidden;
+    height: auto;
+    width: auto;
+     
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+
+}
+
+#imgcarrossel{
+    object-fit: cover;
+    height: auto;
+    width: auto;
+}
+
+
+
 
 header{
     display: block;
@@ -28,13 +62,14 @@ header{
     padding: 10px;
 }
 
-#imglogo{ width: 30%; }
+#imglogo{ width: 30vw; }
 
 /* MENU PARA SMARTPHONES____*/
 
 nav{
     display: block;
     text-align: center;
+    
 }
 
 .material-symbols-outlined{
@@ -64,6 +99,14 @@ nav{
     
 }
 
+li{
+    border-bottom: solid white 1px;
+    padding: 10px;
+}
+
+
+
+
 /* MAIN PAGINA PRINCIPAL_____*/
 
 main{
@@ -77,9 +120,55 @@ main{
 
 }
 
+article{
+    display: flex;
+    justify-content: center;
+    margin-right: -10%;
+    
+}
+
+
+.banner{
+    display: inline-block;
+    background-color: #611D27;
+    height: 150px;
+    width: 160px;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-right: 10%;
+    opacity: 100%;
+}
+
+.banner{
+    width: 30vw;
+    height: 30vw;
+}
+
+
+.banner:hover{
+    transform: scale(1.1);
+}
+
+
 /* RODAPÉ_______*/
 
+#sobrenos{
+    display: block;
+    margin: auto;
+    background-color: #611d27;
+    color: rgb(239, 239, 239);
+    padding: 20px;
+    border-bottom: solid white 1px;
+    text-align: center;
+    
+}
+
+#sobrenos > h2{
+    padding: 10px;
+}
+
 footer{
+    margin-top: -2px;
     height: auto;
     background-color: #D65A6D;
     color: white;
@@ -89,7 +178,7 @@ footer{
 }
 
 footer > p{
-    padding: 10px;
+    padding: 15px;
 }
 
 footer > a > img {

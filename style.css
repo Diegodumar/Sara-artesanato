@@ -141,7 +141,7 @@ article{
     background-color: #611D27;
     height: 150px;
     width: 160px;
-    border-radius: 10px;
+    
     margin: 40px 10px;
     
 }
@@ -149,8 +149,16 @@ article{
 .banner1{
     width: 40vw;
     height: 30vw;
+    
 }
 
+.b1{
+    border-radius: 10px;
+}
+
+.b2{
+    border-radius: 10px;
+}
 
 
 .banner1:hover{transform: scale(1.1);}

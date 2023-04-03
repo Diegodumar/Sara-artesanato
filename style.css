@@ -17,6 +17,7 @@
 /* CARROSSEL DE IMAGENS________*/
 
 .carousel {
+    
     position: relative;
   }
   .carousel-inner {

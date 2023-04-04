@@ -120,11 +120,11 @@ main{
     margin: auto;
     height: 720px;
     max-width: 980px;
-    background-image: url('img/bannerprincipal.jpg');
+    background-image: url('img/bannerprincipal.png');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    opacity: 70%;
+    opacity: 100%;
 }
 
 main{
@@ -139,10 +139,8 @@ article{
 
 .banner1{
     display: inline-block;
-    background-color: #611D27;
-    height: 150px;
-    width: 160px;
-    
+    height: auto;
+    width: auto;
     margin: 40px 10px;
     
 }
@@ -155,6 +153,7 @@ article{
 
 .b1{
     border-radius: 10px;
+    
 }
 
 .b2{
@@ -166,9 +165,8 @@ article{
 
 .banner2{
     display: inline-block;
-    background-color: #611D27;
-    height: 150px;
-    width: 160px;
+    height: auto;
+    width: auto;
     border-radius: 10px;
     margin: 40px 10px;    
 }
